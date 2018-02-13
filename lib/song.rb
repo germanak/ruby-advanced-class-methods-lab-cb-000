@@ -46,6 +46,5 @@ class Song
     song = self.find_or_create_by_name(song_data[1].chomp(".mp3"))
     song.artist_name = song_data[0]
     song
-    binding.pry
   end
 end
