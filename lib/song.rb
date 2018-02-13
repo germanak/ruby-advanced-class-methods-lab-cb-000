@@ -28,4 +28,8 @@ class Song
     song = self.new_by_name(title)
     song
   end
+
+  def self.find_by_name
+
+  end
 end
